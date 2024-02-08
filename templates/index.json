@@ -54,7 +54,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false,
+            "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
           }
         },
@@ -91,6 +91,7 @@
     "image-banner": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/stey-banner-1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -109,13 +110,13 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>THE REVIEWS<\/p>"
+            "text": "<p>LE RECENSIONI<\/p>"
           }
         },
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Testimonials",
+            "heading": "DICONO DI NOI",
             "heading_size": "h0"
           }
         }
