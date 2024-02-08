@@ -75,6 +75,13 @@
               assign quantity_rule_soldout = true
             endif
           -%}
+
+          {% for tag in product.tags %}
+            {% if tag contains 'Pre-order' %}
+              {% assign Pre-order = true %}
+            {% endif %}
+          {% endfor %}
+          
           <button
             id="ProductSubmitButton-{{ section_id }}"
             type="submit"
@@ -88,11 +95,18 @@
               {%- if product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
                 {{ 'products.product.sold_out' | t }}
               {%- else -%}
-                {{ 'products.product.add_to_cart' | t }}
+                {% if Pre-order == true %}
+                  {{ 'products.product.pre_sale' | t }}
+                {% else %}
+                  {{ 'products.product.add_to_cart' | t }}
+                {% endif %}
               {%- endif -%}
             </span>
             {%- render 'loading-spinner' -%}
           </button>
+          {% if Pre-order == true %}
+            <p class="preorder-button">{{ 'products.product.pre_sale_policy' | t }}</p>
+          {% endif %}
           {%- if show_dynamic_checkout -%}
             {{ form | payment_button }}
           {%- endif -%}

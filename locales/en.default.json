@@ -106,7 +106,13 @@
   },
   "products": {
     "product": {
+<<<<<<< Updated upstream
       "add_to_cart": "ADD TO CART",
+=======
+      "add_to_cart": "Add to cart",
+      "pre_sale": "PRE-ORDER",
+      "pre_sale_policy": "Don't miss out on our pre-sale campaign! It ends on the 29th of March, 2024",
+>>>>>>> Stashed changes
       "choose_options": "Choose options",
       "choose_product_options": "Choose options for {{ product_name }}",
       "description": "DESCRIPTION",

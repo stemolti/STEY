@@ -108,6 +108,8 @@
   "products": {
     "product": {
       "add_to_cart": "Aggiungi al carrello",
+      "pre_sale": "PRE-ORDINE",
+      "pre_sale_policy": "Non perdere la nostra campagna pre-vendita! Termina il 29 marzo 2024",
       "description": "Descrizione",
       "on_sale": "In offerta",
       "quantity": {
