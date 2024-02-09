@@ -85,7 +85,7 @@
         "hide_variants": false,
         "enable_video_looping": true,
         "padding_top": 100,
-        "padding_bottom": 0
+        "padding_bottom": 100
       }
     },
     "image-banner": {
