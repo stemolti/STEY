@@ -40,7 +40,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Enter a description of your featured product. Make sure to mention what makes it special, and what sets it apart from the competition.",
+            "text": "",
             "text_style": "subtitle"
           }
         },
