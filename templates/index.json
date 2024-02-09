@@ -141,8 +141,8 @@
         "column": {
           "type": "column",
           "settings": {
-            "title": "So soft",
-            "text": "<p>“I really love how soft the leather is. It feels and smells like quality.” – John S.<\/p>",
+            "title": "Funzionale",
+            "text": "<p>“Zaino capiente, comodo e pieno di tasche dal disegno minimal” <br\/>– M. Da Costa.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -150,8 +150,8 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "Wicked smart",
-            "text": "<p>\"The bag is great. The way it adapts is so clever. I can't live without it.” – Jane K.<\/p>",
+            "title": "Onniscente",
+            "text": "<p>\"Lo zaino perfetto per andare ovunque ma con stile” –  Giulia C.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -159,8 +159,8 @@
         "column-2": {
           "type": "column",
           "settings": {
-            "title": "Elegant",
-            "text": "<p>“Premium quality, as always. I adore the elegant yet simplistic design.” – Anne L.<\/p>",
+            "title": "Beautiful",
+            "text": "<p>“Wow beautiful backpack!! What's the meaning of this product. I want It.” – Pietro M.<\/p>",
             "link_label": "",
             "link": ""
           }
