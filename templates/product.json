@@ -1,5 +1,28 @@
 {
   "sections": {
+    "rich_text_Uj6ri3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EGFGy3": {
+          "type": "heading",
+          "settings": {
+            "heading": "IL COMPAGNO VERSATILE CHE TI ACCOMPAGNA NELLA DINAMICITÀ DELLA TUA QUOTIDIANITÀ CON STILE MINIMALISTA",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EGFGy3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -103,6 +126,7 @@
     }
   },
   "order": [
+    "rich_text_Uj6ri3",
     "main",
     "related-products"
   ]
