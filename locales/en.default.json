@@ -108,7 +108,7 @@
     "product": {
       "add_to_cart": "ADD TO CART",
       "pre_sale": "PRE-ORDINE",
-      "pre_sale_policy": "NON PERDERE LA NOSTRA CAMPAGNA PRE-VENDITA! TERMINA IL 29 MARZO 2024!",
+      "pre_sale_policy": "",
       "choose_options": "Choose options",
       "choose_product_options": "Choose options for {{ product_name }}",
       "description": "DESCRIZIONE",
